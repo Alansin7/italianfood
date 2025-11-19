@@ -25,12 +25,7 @@
     <a href="#especialidades">Especialidades</a>
     <a href="#galeria">Galería</a>
     <a href="#nosotros">Nosotros</a>
-    <a href="#reservaciones">Reservaciones</a>
   </nav>
-
-  <a class="cta-whatsapp" href="https://wa.me/527770000000?text=Hola%2C%20quiero%20reservar%20en%20Bella%20Italia." target="_blank" rel="noopener">
-    Reserva por WhatsApp
-  </a>
 </header>
 
 <main>
@@ -54,7 +49,8 @@
       </div>
     </div>
     <div class="hero-image-card">
-      <img src="https://source.unsplash.com/800x600/?italian,restaurant" alt="Mesa con comida italiana">
+      <!-- Imagen local del hero -->
+      <img src="img/pasta.jpg" alt="Mesa con comida italiana">
       <div class="hero-image-label">
         Noche italiana · Menú degustación desde $399
       </div>
@@ -71,7 +67,8 @@
     <div class="cards-grid">
       <article class="card">
         <div class="card-image">
-          <img src="https://source.unsplash.com/600x400/?pasta,italian" alt="Plato de pasta italiana">
+          <!-- Pasta -->
+          <img src="img/pasta.jpg" alt="Plato de pasta italiana">
         </div>
         <div class="card-body">
           <h3>Tagliatelle al pesto</h3>
@@ -85,7 +82,8 @@
 
       <article class="card">
         <div class="card-image">
-          <img src="https://source.unsplash.com/600x400/?pizza,margherita" alt="Pizza margherita italiana">
+          <!-- Pizza -->
+          <img src="img/pizza.jpg" alt="Pizza margherita italiana">
         </div>
         <div class="card-body">
           <h3>Pizza Margherita</h3>
@@ -99,7 +97,8 @@
 
       <article class="card">
         <div class="card-image">
-          <img src="https://source.unsplash.com/600x400/?italian,dessert" alt="Postre tiramisú italiano">
+          <!-- Tiramisú -->
+          <img src="img/tiramisu.jpg" alt="Postre tiramisú italiano">
         </div>
         <div class="card-body">
           <h3>Tiramisú clásico</h3>
@@ -113,7 +112,8 @@
 
       <article class="card">
         <div class="card-image">
-          <img src="https://source.unsplash.com/600x400/?risotto,italian" alt="Plato de risotto italiano">
+          <!-- Risotto -->
+          <img src="img/risoto.jpeg" alt="Plato de risotto italiano">
         </div>
         <div class="card-body">
           <h3>Risotto ai funghi</h3>
@@ -127,33 +127,7 @@
     </div>
   </section>
 
-  <!-- GALERÍA -->
-  <section id="galeria" class="section section-galeria">
-    <header class="section-header">
-      <h2>Galería de sabores</h2>
-      <p>Un vistazo visual a lo que te espera en Bella Italia.</p>
-    </header>
-
-    <div class="gallery-grid">
-      <figure class="gallery-item">
-        <img src="https://source.unsplash.com/500x400/?italian,pasta" alt="Pasta italiana">
-        <figcaption>Pasta fresca con salsa de tomate y albahaca.</figcaption>
-      </figure>
-      <figure class="gallery-item">
-        <img src="https://source.unsplash.com/500x400/?italian,antipasto" alt="Antipasto italiano">
-        <figcaption>Antipasto con quesos, aceitunas y embutidos.</figcaption>
-      </figure>
-      <figure class="gallery-item">
-        <img src="https://source.unsplash.com/500x400/?italian,wine" alt="Vinos italianos">
-        <figcaption>Selección de vinos italianos para maridar tu experiencia.</figcaption>
-      </figure>
-      <figure class="gallery-item">
-        <img src="https://source.unsplash.com/500x400/?italian,restaurant,table" alt="Restaurante italiano">
-        <figcaption>Ambiente acogedor para cenas especiales.</figcaption>
-      </figure>
-    </div>
-  </section>
-
+   
   <!-- NOSOTROS -->
   <section id="nosotros" class="section section-nosotros">
     <div class="nosotros-text">
@@ -184,89 +158,6 @@
     </div>
   </section>
 
-  <!-- RESERVACIONES -->
-  <section id="reservaciones" class="section section-reservaciones">
-    <header class="section-header">
-      <h2>Reservaciones</h2>
-      <p>Déjanos tus datos y confirmaremos tu mesa por WhatsApp o correo.</p>
-    </header>
-
-    <div class="reservaciones-grid">
-      <form class="form-reserva">
-        <div class="field-group">
-          <label>
-            Nombre completo
-            <input type="text" name="nombre" placeholder="Tu nombre">
-          </label>
-          <label>
-            Teléfono
-            <input type="tel" name="telefono" placeholder="777 000 0000">
-          </label>
-        </div>
-
-        <div class="field-group">
-          <label>
-            Correo electrónico
-            <input type="email" name="correo" placeholder="tucorreo@ejemplo.com">
-          </label>
-          <label>
-            Número de personas
-            <select name="personas">
-              <option value="">Selecciona</option>
-              <option value="2">2 personas</option>
-              <option value="3">3 personas</option>
-              <option value="4">4 personas</option>
-              <option value="5">5 personas</option>
-              <option value="6">6 personas</option>
-              <option value="7+">7 o más</option>
-            </select>
-          </label>
-        </div>
-
-        <div class="field-group">
-          <label>
-            Fecha
-            <input type="date" name="fecha">
-          </label>
-          <label>
-            Hora aproximada
-            <input type="time" name="hora">
-          </label>
-        </div>
-
-        <label class="field-full">
-          Comentarios
-          <textarea name="comentarios" rows="4" placeholder="¿Alguna ocasión especial, alergias o petición especial?"></textarea>
-        </label>
-
-        <button type="submit" class="btn btn-primary full">
-          Enviar solicitud de reserva
-        </button>
-        <p class="form-note">
-          *Este formulario es demostrativo. En un sitio real se conectaría a tu sistema de reservas o correo.
-        </p>
-      </form>
-
-      <div class="reservaciones-info">
-        <div class="info-card">
-          <h3>Reserva rápida por WhatsApp</h3>
-          <p>Si prefieres, mándanos mensaje directo:</p>
-          <a class="cta-whatsapp-large" href="https://wa.me/527770000000?text=Hola%2C%20quiero%20reservar%20una%20mesa%20en%20Bella%20Italia." target="_blank" rel="noopener">
-            Abrir WhatsApp
-          </a>
-        </div>
-
-        <div class="info-card">
-          <h3>Recomendaciones</h3>
-          <ul>
-            <li>Para grupos de más de 6 personas, reserva con al menos 24 horas de anticipación.</li>
-            <li>Menciona si celebras cumpleaños o aniversario para prepararte una sorpresa.</li>
-            <li>Pregunta por nuestro menú degustación italiano.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
 </main>
 
 <footer class="footer">
@@ -284,3 +175,4 @@
 
 </body>
 </html>
+

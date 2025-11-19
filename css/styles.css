@@ -1,0 +1,129 @@
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background-color: #fdf6f0;   /* fondo claro */
+  color: #333;
+}
+
+/* Encabezado */
+.topbar {
+  text-align: center;
+  padding: 20px;
+  background-color: #b22222;   /* rojo vino */
+  color: #fff;
+}
+
+.topbar h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.nav {
+  margin-top: 10px;
+}
+
+.nav a {
+  color: #ffeedd;
+  text-decoration: none;
+  margin: 0 8px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* Contenido principal */
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+.section {
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 20px;
+  border: 1px solid #eee;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+  color: #b22222;
+}
+
+.section h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.section p {
+  margin-bottom: 10px;
+}
+
+.section ul {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+/* Formulario de contacto */
+.contact-form {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.95rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-top: 5px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font: inherit;
+}
+
+.contact-form button {
+  align-self: flex-start;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #b22222;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #8b1a1a;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  background-color: #b22222;
+  color: #fff;
+}
